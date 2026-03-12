@@ -10,7 +10,8 @@
   "dependencies": {
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "@vercel/kv": "1.0.1"
   },
   "devDependencies": {
     "@types/node": "^20.11.30",

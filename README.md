@@ -9,7 +9,8 @@ A no-login, UK-timezone group calendar with WhatsApp-friendly link previews.
 
 ## Environment variables
 - `NEXT_PUBLIC_SITE_URL` (optional): Base URL for OG tags (e.g. `https://your-domain.com`)
-- `DATA_PATH` (optional): File path for persistence (defaults to `.data/group-calendar.json`)
+- `DATA_PATH` (optional): File path for local file persistence (defaults to `.data/group-calendar.json`)
+- `KV_REST_API_URL` and `KV_REST_API_TOKEN` (recommended for Vercel): enables persistent storage via Vercel KV
 - `NEXT_PUBLIC_TURNSTILE_SITE_KEY` (optional): Enables Turnstile widget
 - `TURNSTILE_SECRET_KEY` (optional): Validates Turnstile on the server
 
